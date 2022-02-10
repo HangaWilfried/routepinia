@@ -4,7 +4,7 @@
     <router-link to="/write-message" class="place-self-end bg-blue-400 rounded-full flex flex-col items-center justify-center p-2 w-16 h-16">
       <ChatAltIcon class="w-10 fill-white stroke-blue-400 mt-2"/>
     </router-link>
-    <article class="p-7 bg-gray-300 flex justify-between mt-10 mb-2 relative">
+    <article class="p-7 bg-zinc-100 flex justify-between mt-10 mb-2 relative">
       <div>
         <router-link to="/">Discussions</router-link>
 <!--        <span>nombres de discussions dans la liste.</span>-->
