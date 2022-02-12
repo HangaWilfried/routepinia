@@ -1,21 +1,22 @@
 <template>
-  <HeaderMessage/>
-  <NewMessage/>
-  <div>
-    <router-view/>
+  <div class="opacity-75 bg-gradient-to-r from-pink-400 to-yellow-300 flex flex-col items-start bg-zinc-100 absolute w-full h-full px-5 py-10 inset-0">
+    <HeaderMessage />
+      <router-view/>
+    <BottomMenu/>
   </div>
-  <BottomMenu/>
 </template>
 
 <script>
   import BottomMenu from "../components/BottomMenu.vue";
   import HeaderMessage from "../components/HeaderMessage.vue";
-  import NewMessage from "../components/NewMessage.vue";
+  import NewMessage from "./NewMessage.vue";
 
   export default {
     name: "WelcomeMessageApp",
     components: {
-      BottomMenu, HeaderMessage, NewMessage
+      NewMessage,
+      HeaderMessage,
+      BottomMenu
     }
   }
 </script>

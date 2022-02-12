@@ -1,5 +1,4 @@
 <template>
-  <HeaderMessage/>
   <section>
     <div>
       <p>
@@ -13,18 +12,11 @@
       </p>
     </div>
   </section>
-  <BottomMenu/>
 </template>
 
 <script>
-import BottomMenu from "../components/BottomMenu.vue";
-import HeaderMessage from "../components/HeaderMessage.vue";
-import NewMessage from "../components/NewMessage.vue";
 
 export default {
   name: "NewCategory",
-  components: {
-    BottomMenu, HeaderMessage, NewMessage
-  }
 }
 </script>
